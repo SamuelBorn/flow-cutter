@@ -3,6 +3,8 @@
 
 #include "array_id_func.h"
 
+#include <stdexcept>
+
 ArrayIDIDFunc compute_greedy_min_degree_order(const ArrayIDIDFunc&tail, const ArrayIDIDFunc&head);
 ArrayIDIDFunc compute_greedy_min_shortcut_order(const ArrayIDIDFunc&tail, const ArrayIDIDFunc&head);
 ArrayIDIDFunc compute_greedy_independent_set_order(const ArrayIDIDFunc&tail, const ArrayIDIDFunc&head, bool degree_guided);

@@ -6,6 +6,7 @@
 #include "array_id_func.h"
 #include "timestamp_id_func.h"
 #include <stdexcept>
+#include <limits>
 
 template<class OutArc, class Head, class Weight>
 class ForAllSuccessors{
